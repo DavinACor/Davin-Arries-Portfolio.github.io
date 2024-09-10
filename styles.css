@@ -209,11 +209,6 @@ padding: 5px;
     padding: 2rem 0.5rem;
 }
 
-.btn { 
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 2px;
-}
 
 .btn {
     display: inline-block;
@@ -223,7 +218,7 @@ padding: 5px;
 
 .btn-show-all{
     font-size: 2rem;
-    background: #3a3d40;
+    background: yellow;
     transition: background 0.3s ease-out;
     position: absolute;
     margin-top: 0px;
@@ -232,7 +227,7 @@ padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; 
+    height: 1000px; 
 }
 
 
