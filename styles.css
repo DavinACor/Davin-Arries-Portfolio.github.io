@@ -269,8 +269,8 @@ i:hover{
     text-align: center;
     width: 100%;
     min-height: 80vh;
-    padding: 0.2rme;
     background: rgb(27, 34, 43);
+    margin-bottom: 0;
 
 }
 .contact-section-header > h2{
@@ -332,7 +332,6 @@ footer{
         background-color: #333;
         text-align: center;
         justify-content: space-evenly;
-        padding: 4rem;
         border-top: 4px solid #666;
         font-size: 1.6rem;
         min-height: 10rem;
