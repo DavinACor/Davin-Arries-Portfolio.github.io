@@ -325,3 +325,16 @@ footer{
     border-top: 4px solid rgb(122, 27, 27);
 
 }
+@media (max-width: 768px) { 
+    footer {
+        font-weight: 300;
+        display: flex;
+        background-color: #333;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 4rem;
+        border-top: 4px solid #666;
+        font-size: 1.6rem;
+        min-height: 10rem;
+    }
+}
