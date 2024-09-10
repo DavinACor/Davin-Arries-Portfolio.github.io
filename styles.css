@@ -284,7 +284,7 @@ i:hover{
 @media (max-width: 768px0) {
     .btn-show-all {
         position: relative;
-        margin-top: 20px;
+         margin-bottom: 60px;;
     }
 }
 
