@@ -226,8 +226,16 @@ padding: 5px;
     background: #3a3d40;
     transition: background 0.3s ease-out;
     position: absolute;
-    top: 1200px;
+    margin-top: 20px;
 }
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+
 
 .btn-show-all:hover {
     background: rgb(122, 27, 27)
@@ -270,6 +278,13 @@ i:hover{
 @media (max-width: 28.75em) {
     .contact-section-header > h2{
         font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px0) {
+    .btn-show-all {
+        position: relative;
+        margin-top: 20px;
     }
 }
 
