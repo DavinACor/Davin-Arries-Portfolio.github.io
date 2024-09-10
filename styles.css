@@ -279,14 +279,6 @@ i:hover{
     .contact-section-header > h2{
         font-size: 4rem;
     }
-}
-
-@media (max-width: 768px0) {
-    .btn-show-all {
-        position: relative;
-         margin-bottom: 100px;
-    }
-}
 
 .contact-section-header > p {
     font-style: italic;
