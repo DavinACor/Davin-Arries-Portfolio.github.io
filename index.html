@@ -1,64 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Davin Arries Portfolio</title>
-    <link rel="stylesheet" href="styles.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous"></link>
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        crossorigin="anonymous">
 </head>
 <body>
-    <nav id="navbar" class="nav">
-        <ul class="nav-list">
-            <li>
-                <a href="#welcome-section">About</a>
-            </li>
-            <li>
-                <a href="#projects">Work</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <section id="welcome-section" class="welcome-section">
-        <h1>Hey I am Davin Arries</h1>
-        <p> a developer</p>
-
-    </section>
-
-    <section id="projects" class="projects-section">
-        <h2 class="projects-section-header">These are some projects</h2>
-        <div class="projects-grid">
-            <a href="https://codepen.io/DavinACor/full/PoLWqGZ" target="_blank" class="project project-tile">
-                <img class="project-image" src="photo1.png" alt="project"/><p class="project-title"><span class="code"><</span>To do list project<span class="code">/></span></p></img>
-            </a>
-            <a href="https://codepen.io/DavinACor/full/poYRJrp" class="project project-tile">
-                <img class="project-image" src="photo2.png" alt="project"/><p class="project-title"><span class="code"><</span>Strong password checker<span class="code">/></span></p></img>
-            </a>
-            <a href="https://codepen.io/DavinACor/full/xxBgGLB" class="project project-tile">
-                <img class="project-image" src="photo3.png" alt="project"/><p class="project-title"><span class="code"><</span>Form validation project<span class="code">/></span></p></img>
-            </a>
+    <header>
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home" class="welcome-section">
+        <img src="DavinAprofilePhoto.png" alt="Davin Arries Profile Photo" class="profile-img">
+        <h1>Davin Arries</h1>
+        <p class="intro">Aspiring IT Professional | Developer</p>
+        <div class="bio">
+            <p>
+                Hi! I'm Davin Arries, passionate beginner programmer interested in web development, software engineering, and technology. I have a background in IT studies and I'm eager to grow my skills and build creative digital solutions.
+            </p>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript (Beginner)</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>Continuous Learning</li>
+            </ul>
         </div>
-        
     </section>
-
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio Projects</h2>
+        <p>Here are some projects I have worked on during my studies:</p>
+        <div class="table-container">
+            <table class="projects-table">
+                <thead>
+                    <tr>
+                        <th>Project Title</th>
+                        <th>Description</th>
+                        <th>Technologies Used</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://codepen.io/DavinACor/full/PoLWqGZ" target="_blank">To Do List</a></td>
+                        <td>A web app for managing daily tasks efficiently.</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://codepen.io/DavinACor/full/poYRJrp" target="_blank">Strong Password Checker</a></td>
+                        <td>Checks password strength for secure account creation.</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://codepen.io/DavinACor/full/xxBgGLB" target="_blank">Form Validation Project</a></td>
+                        <td>Validates form inputs before submission for better UX.</td>
+                        <td>HTML, CSS, JavaScript</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="gallery">
+            <a href="https://codepen.io/DavinACor/full/PoLWqGZ" target="_blank"><img  src="photo1.png" alt="To Do List Screenshot" class="project-img"></a>
+            <a  href="https://codepen.io/DavinACor/full/poYRJrp" target="_blank"><img src="photo2.png" alt="Password Checker Screenshot" class="project-img"></a>
+            <a href="https://codepen.io/DavinACor/full/xxBgGLB" target="_blank"><img src="photo3.png" alt="Form Validation Screenshot" class="project-img"></a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            My journey in IT began with a fascination for computers and technology. I'm committed to becoming a skilled developer, focusing on web technologies and software development. My goal is to create impactful solutions, collaborate with talented teams, and continue learning in this fast-evolving field. I believe in the power of technology to solve real-world problems and strive to make a positive difference through my work. At this time my goal is become a competent and employable full stack developer.
+        </p>
+    </section>
+    <!-- Contact Section -->
     <section id="contact" class="contact-section">
-        <div class="flex-container">
-            <a href="https://codepen.io/your-work/" target="_blank" class="btn btn-show-all" >Show all <i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="contact-section-header">
-            <h2>Let's work together . .</h2>
-        </div>
-        <div class="contact-links">
-            <a id="profile-link" href="mailtto: davinarries@gmail.com" target="_blank" class="btn contact-details"><i class="fa fa-envelope"></i>Email</a>
-            <a id="profile-link" href="https://github.com/DavinACor" target="_blank" class="btn contact-details"><i class="fab fa-github"></i>Github</a>
-            <a id="profile-link" href="https://www.linkedin.com/in/davin-arries-8b28a0219/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i>Linkedin</a>
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="mailto:davinarries@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-icons">
+            <a href="mailto:davinarries@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/DavinACor" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/davin-arries-8b28a0219/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
         </div>
     </section>
-    <footer><p>Davin Arries @ 2024</p></footer>
-    <script></script>
+    <footer>
+        <div class="footer-menu">
+            <a href="#home">Home</a> | 
+            <a href="#portfolio">Portfolio</a> | 
+            <a href="#about">About</a> | 
+            <a href="#contact">Contact</a>
+        </div>
+        <button onclick="window.scrollTo({top:0, behavior:'smooth'});" class="back-to-top">Back to Top</button>
+        <p>Davin Arries &copy; 2025</p>
+    </footer>
 </body>
 </html>
